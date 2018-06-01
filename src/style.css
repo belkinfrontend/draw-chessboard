@@ -1,0 +1,50 @@
+body {
+/*    font-family: 'Comfortaa', cursive;*/
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+/*    background: url(../img/bg.jpg) repeat;*/
+    background: #68fca1;
+    background-size: cover;
+
+    text-align: center;
+    font-weight: 400;
+    max-height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 40px;
+    text-shadow: #000 2px 2px 5px;
+    word-spacing: 15px;
+}
+
+.main_block {
+    width: 560px;
+    height: 560px;
+    margin: 30px auto;
+    border: 1px solid #212121;
+}
+
+.block {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.black {
+    background: #212121;
+}
+
+.white {
+    background: #fff;
+}
+
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
